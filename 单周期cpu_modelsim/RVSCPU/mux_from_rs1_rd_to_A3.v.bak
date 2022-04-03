@@ -1,0 +1,22 @@
+module mux_from_rs1_rd_to_A3(
+    input  [1:0] GPRSel,
+    input  [4:0] rd,
+    input  [4:0] rs1,
+    output [4:0] A3
+    );
+    reg [4:0] A3_r;
+    always @( *) begin
+        case (GPRSel)
+            2'b00:begin
+                A3_r<=rd;
+            end
+            2'b01:begin
+                A3_r<=rd;
+            end
+            2'b10:begin
+                A3_r<=rd;
+            end
+        endcase
+    end
+    assign A3=A3_r;
+endmodule

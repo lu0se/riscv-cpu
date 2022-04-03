@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+mccpu instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .instr(instr), 
+    .readdata(readdata), 
+    .PC(PC), 
+    .MemWrite(MemWrite), 
+    .aluout(aluout), 
+    .writedata(writedata), 
+    .ls(ls), 
+    .reg_sel(reg_sel), 
+    .reg_data(reg_data)
+    );
+
+

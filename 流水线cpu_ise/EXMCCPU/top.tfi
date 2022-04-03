@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+top instance_name (
+    .RSTN(RSTN), 
+    .BTN_y(BTN_y), 
+    .SW(SW), 
+    .clk_100mhz(clk_100mhz), 
+    .CR(CR), 
+    .seg_clk(seg_clk), 
+    .seg_sout(seg_sout), 
+    .SEG_PEN(SEG_PEN), 
+    .seg_clrn(seg_clrn), 
+    .led_clk(led_clk), 
+    .led_sout(led_sout), 
+    .LED_PEN(LED_PEN), 
+    .led_clrn(led_clrn), 
+    .RDY(RDY), 
+    .readn(readn), 
+    .BTN_x(BTN_x)
+    );
+
+

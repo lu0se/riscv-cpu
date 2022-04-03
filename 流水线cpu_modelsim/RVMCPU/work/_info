@@ -1,0 +1,484 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/RVSCPU
+T_opt
+!s110 1625142406
+V8c==j^OTiNGiO1bzm92SQ0
+04 5 4 work mccpu fast 0
+=1-080027ba8aec-60ddb486-284-271c
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1625459517
+Vk5e^fNcDm7zDY:UfNK_D01
+Z3 04 9 4 work mccomp_tb fast 0
+=1-080027ba8aec-60e28b3c-364-132c
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1625110044
+Vb1Y3zLY1Hb6lBfnNmR;]21
+R3
+=1-080027ba8aec-60dd361c-2bd-12a4
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt2
+R2
+R0
+valu
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SGL[0zgNFC^OG>JUEM3Se2
+IN9WozcYg2G8MNIKJcT29:2
+Z5 dC:/Users/Administrator/Desktop/RVMCPU
+w1624965733
+8C:/Users/Administrator/Desktop/RVMCPU/alu.v
+FC:/Users/Administrator/Desktop/RVMCPU/alu.v
+L0 3
+Z6 OL;L;10.4;61
+!s108 1625755439.650000
+!s107 ctrl_encode_def.v|C:/Users/Administrator/Desktop/RVMCPU/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/alu.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vctrl
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 @HZ:c928cP;731Xii3O`E2
+ID0Zd5d>kgLk56Jf`WFiVS2
+R5
+w1625062998
+8C:/Users/Administrator/Desktop/RVMCPU/ctrl.v
+FC:/Users/Administrator/Desktop/RVMCPU/ctrl.v
+L0 4
+R6
+!s108 1625755439.703000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/ctrl.v|
+!i113 0
+R7
+vdm
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 [DBZX@fKQ?8N73^KFFB<K1
+IZm]hl>>e1G3ab^PKK5VGD2
+R5
+w1625156372
+8C:/Users/Administrator/Desktop/RVMCPU/dm.v
+FC:/Users/Administrator/Desktop/RVMCPU/dm.v
+L0 3
+R6
+!s108 1625755440.983000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/dm.v|
+!i113 0
+R7
+vEXT
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 mY8G>GzaZElMM1LDH0C7@2
+IF<Uh=bWbh35i303@?XjLd1
+R5
+w1621857262
+8C:/Users/Administrator/Desktop/RVMCPU/EXT.v
+FC:/Users/Administrator/Desktop/RVMCPU/EXT.v
+L0 3
+R6
+!s108 1625755439.803000
+!s107 ctrl_encode_def.v|C:/Users/Administrator/Desktop/RVMCPU/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/EXT.v|
+!i113 0
+R7
+n@e@x@t
+vforwardingunit
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 `1ZBG26go11H>@>HMFK9i0
+IQhGidjg:U12E>dDE@h5[:0
+R5
+w1625072037
+8C:/Users/Administrator/Desktop/RVMCPU/fowarding_unit.v
+FC:/Users/Administrator/Desktop/RVMCPU/fowarding_unit.v
+L0 1
+R6
+!s108 1625755439.860000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/fowarding_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/fowarding_unit.v|
+!i113 0
+R7
+vGRE_array
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 _zH9RmRDnjGPFfHV:fLEk2
+I<bU?>MJEH2`<UWV3:a[YV1
+R5
+w1625106373
+8C:/Users/Administrator/Desktop/RVMCPU/GRE_array.v
+FC:/Users/Administrator/Desktop/RVMCPU/GRE_array.v
+L0 1
+R6
+!s108 1625755439.912000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/GRE_array.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/GRE_array.v|
+!i113 0
+R7
+n@g@r@e_array
+vhazard_detection
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 8GU8D_Of?zKOBdBRSFcOJ0
+IZSMn1Rm[kEC0PY?AVZEM11
+R5
+w1625066648
+8C:/Users/Administrator/Desktop/RVMCPU/hazard_detection.v
+FC:/Users/Administrator/Desktop/RVMCPU/hazard_detection.v
+L0 1
+R6
+!s108 1625755439.975000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/hazard_detection.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/hazard_detection.v|
+!i113 0
+R7
+vim
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 hXa2ZD1Tzd`6WocF;?e203
+IY>b[gWD>0F`ZTV[Zojc[D1
+R5
+w1621776726
+8C:/Users/Administrator/Desktop/RVMCPU/im.v
+FC:/Users/Administrator/Desktop/RVMCPU/im.v
+L0 3
+R6
+!s108 1625755440.937000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/im.v|
+!i113 0
+R7
+vmccomp
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 QQU5ohgHbm4S3;Y_cIV1C2
+I4d49jBABIAa;FkR[58PWW3
+R5
+w1625105373
+8C:/Users/Administrator/Desktop/RVMCPU/mccomp.v
+FC:/Users/Administrator/Desktop/RVMCPU/mccomp.v
+L0 1
+R6
+!s108 1625755440.028000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mccomp.v|
+!i113 0
+R7
+vmccomp_tb
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 3:5j?aQDK_IU7S69MF]Le1
+IkiaFm3?UfE]L:4j_`XmVH2
+R5
+w1625755433
+8C:\Users\Administrator\Desktop\RVMCPU\mccomp_tb.v
+FC:\Users\Administrator\Desktop\RVMCPU\mccomp_tb.v
+L0 3
+R6
+!s108 1625755440.114000
+!s107 C:\Users\Administrator\Desktop\RVMCPU\mccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\Administrator\Desktop\RVMCPU\mccomp_tb.v|
+!i113 0
+R7
+vmccpu
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 bQoJ[ZJK:ff<QEG>me2>92
+I9d[GMn?SYj7nU1e8HbaIM2
+R5
+w1625149254
+8C:/Users/Administrator/Desktop/RVMCPU/mccpu.v
+FC:/Users/Administrator/Desktop/RVMCPU/mccpu.v
+L0 1
+R6
+!s108 1625755440.168000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mccpu.v|
+!i113 0
+R7
+vmux_from_dm_alu_to_RF
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 bl4<XHRNZ1`ZXG]ng83Bd2
+I;lbQCzC^<4N5o>bg5Y68D0
+R5
+w1625034236
+8C:/Users/Administrator/Desktop/RVMCPU/mux_from_dm_alu_to_RF.v
+FC:/Users/Administrator/Desktop/RVMCPU/mux_from_dm_alu_to_RF.v
+L0 1
+R6
+!s108 1625755440.261000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mux_from_dm_alu_to_RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mux_from_dm_alu_to_RF.v|
+!i113 0
+R7
+nmux_from_dm_alu_to_@r@f
+vmux_from_exe_pcplus4_to_pipeif
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 XfB3bH<e<`;<Gg_gne<=:2
+IY3LRL`4;Rjoh9IM3fR8Q]0
+R5
+w1625035085
+8C:/Users/Administrator/Desktop/RVMCPU/mux_from_exe_pcplus4_to_pipeif.v
+FC:/Users/Administrator/Desktop/RVMCPU/mux_from_exe_pcplus4_to_pipeif.v
+L0 1
+R6
+!s108 1625755440.333000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mux_from_exe_pcplus4_to_pipeif.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mux_from_exe_pcplus4_to_pipeif.v|
+!i113 0
+R7
+vmux_from_forward_to_AB
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 GCFYLXR[o@S2oOm=g`NHi1
+I8G4WRR2c`^FNX@C_<MSK_0
+R5
+w1625065938
+8C:/Users/Administrator/Desktop/RVMCPU/mux_from_forward_to_AB.v
+FC:/Users/Administrator/Desktop/RVMCPU/mux_from_forward_to_AB.v
+L0 1
+R6
+!s108 1625755440.384000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mux_from_forward_to_AB.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mux_from_forward_to_AB.v|
+!i113 0
+R7
+nmux_from_forward_to_@a@b
+vmux_from_rs2_EXT_to_alu
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 MB;J9WoV`nkz:M[jOQgh01
+IFUBZOMN<7T0lN06g2^[KP2
+R5
+w1624954434
+8C:/Users/Administrator/Desktop/RVMCPU/mux_from_rs2_EXT_to_alu.v
+FC:/Users/Administrator/Desktop/RVMCPU/mux_from_rs2_EXT_to_alu.v
+L0 1
+R6
+!s108 1625755440.431000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/mux_from_rs2_EXT_to_alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/mux_from_rs2_EXT_to_alu.v|
+!i113 0
+R7
+nmux_from_rs2_@e@x@t_to_alu
+vNPC
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 A=:mJ3zPWSQXPVS^FVneH2
+IGEk3IccQ7gl?Q2hU`I:bH3
+R5
+w1625067421
+8C:/Users/Administrator/Desktop/RVMCPU/NPC.v
+FC:/Users/Administrator/Desktop/RVMCPU/NPC.v
+L0 3
+R6
+!s108 1625755440.484000
+!s107 ctrl_encode_def.v|C:/Users/Administrator/Desktop/RVMCPU/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/NPC.v|
+!i113 0
+R7
+n@n@p@c
+vPC
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 J0dMg3K;@DX3AZRi]]2Pz1
+IZ^]Nm>i@TDf2@Z6bY^FB_1
+R5
+w1625107516
+8C:/Users/Administrator/Desktop/RVMCPU/PC.v
+FC:/Users/Administrator/Desktop/RVMCPU/PC.v
+L0 1
+R6
+!s108 1625755440.566000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/PC.v|
+!i113 0
+R7
+n@p@c
+vpipeexe
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 OhF_T[8;<15aaPWOWKSGC1
+IGiffFGaZj[^3_LTe1lVWk0
+R5
+w1625109164
+8C:/Users/Administrator/Desktop/RVMCPU/pipeexe.v
+FC:/Users/Administrator/Desktop/RVMCPU/pipeexe.v
+L0 1
+R6
+!s108 1625755440.615000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/pipeexe.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/pipeexe.v|
+!i113 0
+R7
+vpipeid
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 VEf`JgKdCl0BcA`cigV3_1
+IXD`S25<;TJB[Uo3h5Hz340
+R5
+w1625068252
+8C:/Users/Administrator/Desktop/RVMCPU/pipeid.v
+FC:/Users/Administrator/Desktop/RVMCPU/pipeid.v
+L0 1
+R6
+!s108 1625755440.692000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/pipeid.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/pipeid.v|
+!i113 0
+R7
+vpipeif
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 i?:4[z:JC`<[UL0;0eX4h0
+I4UXc3E?2?i?HD35Sg6gXS1
+R5
+w1625066039
+8C:/Users/Administrator/Desktop/RVMCPU/pipeif.v
+FC:/Users/Administrator/Desktop/RVMCPU/pipeif.v
+L0 1
+R6
+!s108 1625755440.773000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/pipeif.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/pipeif.v|
+!i113 0
+R7
+vRF
+R4
+r1
+!s85 0
+31
+!i10b 1
+!s100 =4zO;CEoNUoRzWKB<<9^N2
+IK2Wm22WDUgennKahniBUl1
+R5
+w1621759150
+8C:/Users/Administrator/Desktop/RVMCPU/RF.v
+FC:/Users/Administrator/Desktop/RVMCPU/RF.v
+L0 2
+R6
+!s108 1625755440.822000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/RF.v|
+!i113 0
+R7
+n@r@f
+vsccpu
+!s110 1625755440
+!i10b 1
+!s100 9?W4Q19HVkEW;QN>08G=Z0
+I2eki^?V1U[aiK^PlAW[aU1
+R4
+R5
+w1624965637
+8C:/Users/Administrator/Desktop/RVMCPU/sccpu.v
+FC:/Users/Administrator/Desktop/RVMCPU/sccpu.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1625755440.880000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/sccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/sccpu.v|
+!i113 0
+R7
+vtop
+!s110 1625755439
+!i10b 1
+!s100 Bo9GOPdab?3_IXnjF?HSd1
+I5jHeeTXI_Bjjbn6?3PzGA3
+R4
+R5
+w1624958388
+8C:/Users/Administrator/Desktop/RVMCPU/top.v
+FC:/Users/Administrator/Desktop/RVMCPU/top.v
+L0 21
+R6
+r1
+!s85 0
+31
+!s108 1625755439.500000
+!s107 C:/Users/Administrator/Desktop/RVMCPU/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/RVMCPU/top.v|
+!i113 0
+R7

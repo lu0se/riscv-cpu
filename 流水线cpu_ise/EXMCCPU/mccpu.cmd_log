@@ -1,0 +1,3 @@
+vhdtdtfi -lib work C:/COD/EXMCCPU/CPU/mccpu.v -lang verilog -prj EXMCCPU -o mccpu.spl -module mccpu -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 mccpu.spl C:/COD/EXMCCPU/mccpu.sym 
+vhdtdtfi -lang verilog -prj EXMCCPU -o C:/COD/EXMCCPU/mccpu.tfi -lib work C:/COD/EXMCCPU/CPU//mccpu.v -module mccpu -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

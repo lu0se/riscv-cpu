@@ -1,0 +1,17 @@
+[Inputs]
+clk
+rst
+=instr[31:0]=
+=readdata[31:0]=
+=reg_sel[4:0]=
+[Outputs]
+MemWrite
+=PC[31:0]=
+=aluout[31:0]=
+=writedata[31:0]=
+=ls[3:0]=
+=reg_data[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel mccpu
+

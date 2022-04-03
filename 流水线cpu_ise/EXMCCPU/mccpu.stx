@@ -1,0 +1,91 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/COD/EXMCCPU/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to C:/COD/EXMCCPU/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: mccpu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\RF.v" into library work
+Parsing module <RF>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\PC.v" into library work
+Parsing module <PC>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\NPC.v" into library work
+Parsing verilog file "C:\COD\EXMCCPU\CPU\/ctrl_encode_def.v" included at line 1.
+Parsing module <NPC>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\mux_from_rs2_EXT_to_alu.v" into library work
+Parsing module <mux_from_rs2_EXT_to_alu>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\mux_from_forward_to_AB.v" into library work
+Parsing module <mux_from_forward_to_AB>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\mux_from_exe_pcplus4_to_pipeif.v" into library work
+Parsing module <mux_from_exe_pcplus4_to_pipeif>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\EXT.v" into library work
+Parsing verilog file "C:\COD\EXMCCPU\CPU\/ctrl_encode_def.v" included at line 1.
+Parsing module <EXT>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\alu.v" into library work
+Parsing verilog file "C:\COD\EXMCCPU\CPU\/ctrl_encode_def.v" included at line 1.
+Parsing module <alu>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\pipeif.v" into library work
+Parsing module <pipeif>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\pipeid.v" into library work
+Parsing module <pipeid>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\pipeexe.v" into library work
+Parsing module <pipeexe>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\mux_from_dm_alu_to_RF.v" into library work
+Parsing module <mux_from_dm_alu_to_RF>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\hazard_detection.v" into library work
+Parsing module <hazard_detection>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\GRE_array.v" into library work
+Parsing module <GRE_array>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\fowarding_unit.v" into library work
+Parsing module <forwardingunit>.
+Analyzing Verilog file "C:\COD\EXMCCPU\CPU\mccpu.v" into library work
+Parsing module <mccpu>.
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.19 secs
+ 
+--> 
+
+Total memory usage is 4498236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
